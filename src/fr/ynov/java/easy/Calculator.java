@@ -1,8 +1,6 @@
 package fr.ynov.java.easy;
 
-import java.util.Scanner;
-
-public class MainArgs {
+public class Calculator {
     public static void main(String[] args) {
         if (args.length < 2) {
             System.out.println("Please provide two numbers as arguments."); // verify that the user has provided two args
